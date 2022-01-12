@@ -16,9 +16,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-    <div>
-
-    </div>
+    <section className="c-section">
+      <div className="c-box">
+       {this.state.currentId}
+      </div>
+    </section>
     );
   }
 }
